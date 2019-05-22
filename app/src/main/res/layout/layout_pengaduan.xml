@@ -35,9 +35,8 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="384dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:background=" #00a65a"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -48,11 +47,11 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="111dp"
+        android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginEnd="264dp"
         android:src="@drawable/logo_tp4d"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginEnd="300dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>

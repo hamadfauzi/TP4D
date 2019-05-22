@@ -31,7 +31,7 @@
 
         <EditText
             android:layout_gravity="center"
-            android:id="@+id/txt_email"
+            android:id="@+id/inputEmailLogin"
             android:layout_width="293dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -44,7 +44,7 @@
 
         <EditText
             android:layout_gravity="center"
-            android:id="@+id/txt_password"
+            android:id="@+id/inputEmailRegister"
             android:layout_width="296dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -58,13 +58,14 @@
 
         <Button
             android:layout_gravity="center"
-            android:id="@+id/btn_masuk"
+            android:id="@+id/btnMasuk"
             android:layout_width="296dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="#00a650"
             android:text="MASUK"
             android:textColor="#ffffff" />
+
         <TextView
             android:layout_gravity="center"
             android:id="@+id/textView6"
@@ -83,7 +84,7 @@
 
         <Button
             android:layout_gravity="center"
-            android:id="@+id/btn_daftar"
+            android:id="@+id/btnDaftar"
             android:layout_width="293dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"

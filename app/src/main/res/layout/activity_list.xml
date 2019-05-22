@@ -18,7 +18,7 @@
         android:padding="4dp">
 
         <ImageView
-            android:id="@+id/galleryImage"
+            android:id="@+id/gambarBerita"
             android:layout_width="80dp"
             android:layout_height="80dp"
             />
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14sp"
-            android:id="@+id/tvTitle"
+            android:id="@+id/judulBerita"
             android:textColor="#b3000000"
             android:lineSpacingExtra="6sp"
             android:textStyle="bold"
@@ -44,11 +44,12 @@
 
 
         <TextView
-            android:id="@+id/tvDesc"
+            android:id="@+id/deskripsiBerita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:textColor="#80000000"
+            android:layout_marginTop="10dp"
             android:lineSpacingExtra="7sp"
             android:text="Kejaksaan Tinggi NTB menandatangani Nota Kesepakatan (MoU) dengan BPN wilayah NTB,"
             />
