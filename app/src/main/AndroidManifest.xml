@@ -23,7 +23,7 @@
             android:name=".LoginActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".Register"
+            android:name=".RegisterActivity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".Pengaduan2Activity"

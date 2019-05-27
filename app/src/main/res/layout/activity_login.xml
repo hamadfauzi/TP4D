@@ -44,7 +44,7 @@
 
         <EditText
             android:layout_gravity="center"
-            android:id="@+id/inputEmailRegister"
+            android:id="@+id/inputPasswordLogin"
             android:layout_width="296dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
