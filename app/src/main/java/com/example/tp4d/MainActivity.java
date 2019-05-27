@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initialize()
     {
+        //aaaa
         btnInformasi = (Button) findViewById(R.id.btnInformasi);
         btnPengaduan = (Button) findViewById(R.id.btnPengaduan);
         btnPermohonan = (Button) findViewById(R.id.btnPermohonan);
