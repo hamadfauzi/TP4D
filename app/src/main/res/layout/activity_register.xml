@@ -12,7 +12,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-
         <ImageView
             android:layout_gravity="center"
             android:id="@+id/imageView2"
@@ -22,8 +21,6 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             app:srcCompat="@drawable/logo" />
-
-
 
         <EditText
             android:layout_gravity="center"
@@ -40,7 +37,6 @@
             android:singleLine="true"
             />
 
-
         <EditText
             android:id="@+id/inputEmailRegister"
             android:layout_gravity="center"
@@ -55,7 +51,6 @@
             android:textColor="#ffffff"
             android:singleLine="true"
             />
-
 
         <EditText
             android:id="@+id/inputPasswordRegister"
@@ -90,8 +85,5 @@
             android:textColor="#ffffff" />
 
     </LinearLayout>
-
-
-
 
 </RelativeLayout>

@@ -2,9 +2,9 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Permohonan2Activity">
+    tools:context=".TambahPermohonanActivity">
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/tilSatker"
@@ -114,18 +114,18 @@
 
     <Button
         android:id="@+id/btnSimpanPer"
-        android:layout_width="360dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:fontFamily="sans-serif"
         android:lineSpacingExtra="3sp"
+        android:layout_marginTop="20dp"
         android:text="SIMPAN"
         android:textColor="#ffffff"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilKontak"
@@ -133,9 +133,8 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="384dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:background=" #00a65a"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"

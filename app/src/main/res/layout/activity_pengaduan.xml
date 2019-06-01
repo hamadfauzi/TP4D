@@ -18,7 +18,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/tambahPeng"
+        android:id="@+id/tambahPengaduan"
         android:layout_width="58dp"
         android:layout_height="52dp"
         android:layout_marginStart="296dp"

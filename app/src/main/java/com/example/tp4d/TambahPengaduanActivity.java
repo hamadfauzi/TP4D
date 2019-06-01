@@ -1,13 +1,13 @@
 package com.example.tp4d;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
-public class InformasiBeritaActivity extends AppCompatActivity {
+public class TambahPengaduanActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_halaman_informasi);
+        setContentView(R.layout.activity_tambah_pengaduan);
     }
 }

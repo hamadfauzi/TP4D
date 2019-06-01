@@ -29,7 +29,7 @@
 
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/tambah"
+        android:id="@+id/tambahPermohonan"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="296dp"

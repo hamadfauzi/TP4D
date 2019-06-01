@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".SeputarActivity"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".TambahPengaduanActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,13 +26,13 @@
             android:name=".RegisterActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".Pengaduan2Activity"
+            android:name=".MainActivity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".PengaduanActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".Permohonan2Activity"
+            android:name=".TambahPermohonanActivity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".PermohonanActivity"

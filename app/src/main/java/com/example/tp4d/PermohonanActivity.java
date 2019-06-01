@@ -8,6 +8,6 @@ public class PermohonanActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.permohonan);
+        setContentView(R.layout.activity_permohonan);
     }
 }

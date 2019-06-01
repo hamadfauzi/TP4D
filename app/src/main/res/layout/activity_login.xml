@@ -7,7 +7,6 @@
     android:background="@drawable/background"
     tools:context=".LoginActivity">
 
-
     <LinearLayout
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
@@ -27,8 +26,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/logo" />
 
-
-
         <EditText
             android:layout_gravity="center"
             android:id="@+id/inputEmailLogin"
@@ -41,7 +38,6 @@
             android:textColorHint="#fff"
             android:textColor="#ffffff" />
 
-
         <EditText
             android:layout_gravity="center"
             android:id="@+id/inputPasswordLogin"
@@ -53,8 +49,6 @@
             android:hint="Password"
             android:textColor="#ffffff"
             android:textColorHint="#fff"/>
-
-
 
         <Button
             android:layout_gravity="center"
@@ -91,8 +85,6 @@
             android:background="#33ffffff"
             android:text="DAFTAR"
             android:textColor="#ffffff" />
-
-
 
     </LinearLayout>
 
